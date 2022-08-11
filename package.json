@@ -1,6 +1,6 @@
 {
   "name": "image-size-from-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the image size from the link.",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
@@ -27,5 +27,9 @@
     "@typescript-eslint/parser": "^5.33.0",
     "eslint": "^8.21.0",
     "typescript": "^4.7.4"
-  }
+  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chmerev/image-size-from-url"
+	}
 }
