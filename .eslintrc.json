@@ -1,0 +1,33 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": { "project": ["./tsconfig.json"] },
+	"plugins": ["@typescript-eslint"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"rules": {
+		"no-var": 1,
+		"curly": 1,
+		"no-console": 1,
+		"no-debugger": 1,
+		"no-return-await": 0,
+		"no-shadow": 1,
+		"no-unused-vars": 1,
+		"default-case": 1,
+		"prefer-const": 1,
+		"@typescript-eslint/no-var-requires": 1,
+		"max-lines": [
+			1,
+			2000
+		],
+		"no-trailing-whitespace": 0,
+		"quotes": [
+			1,
+			"single"
+		],
+		"trailing-comma": 0,
+		"indent": [1, "tab", { "SwitchCase": 1 }]
+	},
+	"ignorePatterns": ["lib", "node_modules", "interfaces"]
+}
